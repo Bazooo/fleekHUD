@@ -2168,5 +2168,25 @@ Scheme
       }
     }
 
+    "Small"
+    {
+      "1"
+      {
+        "name"      "ITCAvantGardePro-XLt"
+        "tall"      "20"
+        "antialias" "1"
+      }
+    }
+
+    "Medium"
+    {
+      "1"
+      {
+        "name"      "ITCAvantGardePro-XLt"
+        "tall"      "30"
+        "antialias" "1"
+      }
+    }
+
   }
 }

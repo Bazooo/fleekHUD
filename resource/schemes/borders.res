@@ -6,6 +6,50 @@ Scheme
   // describes all the border types
   Borders
   {
+
+    // HUD Borders
+    payloadBgBrd
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "payloadBgBrd"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "payloadBgBrd"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "payloadBgBrd"
+					"offset" "0 0"
+				}
+			}
+
+      Bottom
+			{
+				"1"
+				{
+					"color" "payloadBgBrd"
+					"offset" "0 0"
+				}
+			}
+		}
+
+
+    // Base Borders
     NoBorder
     {
       "inset" "0 0 0 0"

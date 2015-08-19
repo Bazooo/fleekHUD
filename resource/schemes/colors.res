@@ -8,6 +8,46 @@ Scheme
   //////////////////////// COLORS ///////////////////////////
   Colors
   {
+
+    // Keywords
+    // Bg = background
+    // Txt = text
+    // Brd = border
+
+
+    // HUD colors
+    "cHudWhite"       "236 236 236 255"
+    "cHudBlack"       "29 29 29 255"
+    "cHudRedLight"    "246 71 71 255"
+    //"cHudRed"
+    //"cHudRedDark"
+    "cHudBlueLight"   "25 181 254 255"
+    //"cHudBlue"
+    //"cHudBlueDark"
+    "cHudGreen"       "3 201 169 255"
+    "cHudPurple"      "102 51 153 255"
+
+    // hudplayerhealth.res
+    "healthTxt"       "236 236 236 255"
+    "healthBgNormal"  "29 29 29 255"
+    "healthBgDying"   "246 71 71 255"
+    "healthBgBuff"    "3 201 169 255"
+
+    // hudammoweapons.res
+    "ammoTxt"         "236 236 236 255"
+    "ammoBgNormal"    "29 29 29 255"
+    "ammoBgLow"       "246 71 71 255"
+
+    //objectivestatusescort.res (Payload)
+    "payloadBg"       "236 236 236 50"
+    "payloadBgBrd"    "236 236 236 25"
+    "payloadTxt"      "236 236 236 255"
+    "payloadRed"      "246 71 71 255"
+    "payloadBlu"      "25 181 254 255"
+    "payloadIdle"     "236 236 236 255"
+    "payloadBlock"    "102 51 153 255"
+
+
     // base colors
     "Orange"			"178 82 22 255"
     "OrangeDim"			"178 82 22 120"

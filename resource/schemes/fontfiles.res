@@ -252,4 +252,9 @@ Scheme
     }
     "7" "resource/ocra.ttf"
   }
+  "8"
+  {
+    "font" "resource/fonts/avantGarde.ttf"
+    "name" "ITCAvantGardePro-XLt"
+  }
 }
