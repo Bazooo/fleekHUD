@@ -204,12 +204,24 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgBuff"			Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			bgcolor 	"healthBgBuff"			Linear	0.0	0.75
+
+	RunEvent	HudHealthBonusPulseLoop	0.2
+}
+
+event HudHealthBonusPulseLoop
+{
+	Animate	PlayerStatusHealthValue	bgcolor	"healthBgBuff"	Linear	0.0	0.75
+	Animate	PlayerStatusHealthValue	bgcolor	"healthBgNormal"	Linear	0.75	1.5
+
+	RunEvent	HudHealthBonusPulseLoop	1.5
 }
 
 event HudHealthBonusPulseStop
 {
-	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgNormal"			Accel 0.0 0.0
+	StopEvent	HudHealthBonusPulse	0.0
+	StopEvent	HudHealthBonusPulseLoop	0.0
+	Animate 	PlayerStatusHealthValue			bgcolor 	"healthBgNormal"			Linear	0.0	0.75
 }
 
 //===========================================
@@ -217,39 +229,49 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgDying"			Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgDying"			Linear	0.0	0.75
+
+	RunEvent	HudHealthDyingPulseLoop	0.2
+}
+
+event HudHealthDyingPulseLoop
+{
+	Animate	PlayerStatusHealthValue	bgColor	"healthBgDying"	Linear	0.0	0.75
+	Animate	PlayerStatusHealthValue	bgColor	"healthBgNormal"	Linear	0.75	1.5
+
+	RunEvent	HudHealthDyingPulseLoop	1.5
 }
 
 event HudHealthDyingPulseStop
 {
-	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgNormal"			Accel 0.0 0.0
+	StopEvent	HudHealthDyingPulse	0.0
+	StopEvent	HudHealthDyingPulseLoop	0.0
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgNormal"			Linear	0.0	0.75
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-	StopEvent HudLowAmmoPulseStop 0.0
-	StopEvent HudLowAmmoPulseStopLoop 0.0
-	Animate 	AmmoBackgoundLow				Alpha 		"255"			Accel 0.0 0.0
+	Animate 	AmmoBackground			bgColor 	"ammoBgLow"			Linear	0.0	0.75
+
+	RunEvent	HudLowAmmoPulseLoop	0.2
 }
 
 // call to loop HudLowAmmoPulse
 event HudLowAmmoPulseLoop
 {
-	RunEvent HudLowAmmoPulse 0.0
+	Animate	AmmoBackground	bgColor	"ammoBgLow"	Linear	0.0	0.75
+	Animate	AmmoBackground	bgColor	"ammoBgNormal"	Linear	0.75	1.5
+
+	RunEvent	HudLowAmmoPulseLoop	1.5
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 0.0
-	Animate 	AmmoBackgoundLow				Alpha 		"0"				Accel 0.0 0.0
-	RunEvent HudLowAmmoPulseStopLoop 1.5
-}
-
-event HudLowAmmoPulseStopLoop
-{
-	RunEvent HudLowAmmoPulseStop 0.0
+	StopEvent	HudLowAmmoPulse	0.0
+	StopEvent	HudLowAmmoPulseLoop	0.0
+	Animate 	AmmoBackground			bgColor 	"ammoBgNormal"			Linear	0.0	0.75
 }
 
 //===========================================
