@@ -38,7 +38,7 @@ Scheme
     "ammoBgNormal"    "29 29 29 255"
     "ammoBgLow"       "246 71 71 255"
 
-    //objectivestatusescort.res (Payload)
+    // objectivestatusescort.res (Payload)
     "payloadBg"       "236 236 236 50"
     "payloadBgBrd"    "236 236 236 25"
     "payloadTxt"      "236 236 236 255"
@@ -46,6 +46,24 @@ Scheme
     "payloadBlu"      "25 181 254 255"
     "payloadIdle"     "236 236 236 255"
     "payloadBlock"    "102 51 153 255"
+
+    // hudmediccharge.res (Medigun Charge)
+      // Charge Meter
+      "medgunTxt"       "236 236 236 255"
+      "medgunBg"        "29 29 29 255"
+      "medgunFgNormal"  "25 181 254 255"
+      "medgunFgCharged" "3 201 169 255"
+
+      // Ready Text
+      "medgunTxtReady"  "236 236 236 255"
+      "medgunBgReady"   "29 29 29 255"
+      "medgunFgReady1"  "25 181 254 255"
+      "medgunFgReady2"  "3 201 169 255"
+
+    // targetid.res
+    "targetIdTxt"       "236 236 236 255"
+    "targetIdBg"        "29 29 29 255"
+
 
 
     // base colors
