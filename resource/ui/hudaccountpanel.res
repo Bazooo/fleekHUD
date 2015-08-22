@@ -56,5 +56,4 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 	}
-
 }
