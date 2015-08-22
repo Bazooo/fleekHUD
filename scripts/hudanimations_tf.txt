@@ -204,8 +204,7 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate 	PlayerStatusHealthValue			bgcolor 	"healthBgBuff"			Linear	0.0	0.75
-	Animate 	TargetIdBackground			bgcolor 	"healthBgBuff"			Linear	0.0	0.75
+	Animate 	PlayerStatusHealthValue			bgcolor 	"healthBgBuff"			Linear	0.0	0.00001
 
 	RunEvent	HudHealthBonusPulseLoop	0.2
 }
@@ -222,7 +221,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent	HudHealthBonusPulse	0.0
 	StopEvent	HudHealthBonusPulseLoop	0.0
-	Animate 	PlayerStatusHealthValue			bgcolor 	"healthBgNormal"			Linear	0.0	0.75
+	Animate 	PlayerStatusHealthValue			bgcolor 	"healthBgNormal"			Linear	0.0	0.00001
 }
 
 //===========================================
@@ -230,14 +229,17 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgDying"			Linear	0.0	0.75
+	Animate		LowHealthSignal							Size			"0 15"							Linear	0.0	0.00001
+	Animate		LowHealthSignal							Size			"80 15"							Accel		0.0	0.25
+	Animate		LowHealthSignal							Size			"0 15"							Accel		1.5	0.25
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgDying"			Linear	0.0	0.00001
 
 	RunEvent	HudHealthDyingPulseLoop	0.2
 }
 
 event HudHealthDyingPulseLoop
 {
-	Animate	PlayerStatusHealthValue	bgColor	"healthBgDying"	Linear	0.0	0.75
+	Animate	PlayerStatusHealthValue	bgColor	"healthBgDying"		Linear	0.0		0.75
 	Animate	PlayerStatusHealthValue	bgColor	"healthBgNormal"	Linear	0.75	1.5
 
 	RunEvent	HudHealthDyingPulseLoop	1.5
@@ -247,14 +249,22 @@ event HudHealthDyingPulseStop
 {
 	StopEvent	HudHealthDyingPulse	0.0
 	StopEvent	HudHealthDyingPulseLoop	0.0
-	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgNormal"			Linear	0.0	0.75
+	Animate		LowHealthSignal							Size			"0 15"								Linear	0.0	0.00001
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthBgNormal"			Linear	0.0	0.00001
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-	Animate 	AmmoBackground			bgColor 	"ammoBgLow"			Linear	0.0	0.75
+	Animate		LowAmmoSignal				Alpha			"255"						Accel	0.0 0.1
+	Animate		LowAmmoSignal				Position	"-40 0"					Linear	0.0 0.00001
+	Animate		LowAmmoSignal				Position	"-50 0"					Accel	0.0 0.1
+	Animate		LowAmmoSignal				Position	"-30 0"					Accel	0.1 0.1
+	Animate		LowAmmoSignal				Position	"-40 0"					Accel	0.2 0.1
+	Animate		LowAmmoSignal				Alpha			"0"							Accel	0.5 0.5
+
+	Animate 	AmmoBackground			bgColor 	"ammoBgLow"			Linear	0.0	0.00001
 
 	RunEvent	HudLowAmmoPulseLoop	0.2
 }
@@ -272,7 +282,8 @@ event HudLowAmmoPulseStop
 {
 	StopEvent	HudLowAmmoPulse	0.0
 	StopEvent	HudLowAmmoPulseLoop	0.0
-	Animate 	AmmoBackground			bgColor 	"ammoBgNormal"			Linear	0.0	0.75
+	Animate 	AmmoBackground			bgColor 	"ammoBgNormal"			Linear	0.0	0.00001
+	Animate		LowAmmoSignal				Alpha			"0"									Accel		0.0 0.1
 }
 
 //===========================================
@@ -434,14 +445,14 @@ event HudMedicCharged
 	Animate	ChargeReady 						Position	"0 c-100"						Accel 0.0 0.5
 	Animate	ChargeReady 						Alpha			"255"								Linear 0.25 0.25
 	Animate	ChargeReadyForeground 	Size			"80 15"							Accel 0.5 0.5
-	Animate	ChargeReadyForeground 	BgColor		"medgunFgReady2"		Linear 1.0 0.0001
+	Animate	ChargeReadyForeground 	BgColor		"medgunReadyFg2"		Linear 1.0 0.0001
 
 	Animate	ChargeReady 						Position	"-10 c-100"					Accel 1.5 0.25
 	Animate	ChargeReady 						Position	"150 c-100"					Accel 1.75 0.5
 	Animate	ChargeReady 						Alpha			"0"									Accel 1.75 0.25
 	Animate	ChargeReady 						Position	"-150 c-100"				Linear 2.25 0.0001
 	Animate	ChargeReadyForeground 	Size			"0 15"							Linear 2.25 0.0001
-	Animate	ChargeReadyForeground 	BgColor		"medgunFgReady1"		Linear 2.25 0.0001
+	Animate	ChargeReadyForeground 	BgColor		"medgunReadyFg1"		Linear 2.25 0.0001
 
 	Animate	ChargeMeter 						FgColor		"medgunFgCharged"		Linear 0.0 0.0001
 

@@ -1,27 +1,52 @@
+#base "../../overrides/anchors_overrides.res"
 "Resource/UI/HudPlayerHealth.res"
 {
+
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-200"
-		"ypos"			"r239"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"120"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
+
+	"LowHealthSignal"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LowHealthSignal"
+		"xpos"			"-40"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"	"YOU ARE HURT"
+		"font"			"Tiny"
+		"textAlignment"	"center"
+		"fgcolor"		"healthSignalTxt"
+		"bgcolor_override"	"healthSignalBg"
+
+		"pin_to_sibling"				"HealthSignalAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+	}
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"0"
-		"ypos"			"90"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"30"
@@ -32,6 +57,10 @@
 		"font"			"Medium"
 		"fgcolor_override"		"healthTxt"
 		"bgcolor_override"		"healthBgNormal"
+
+		"pin_to_sibling"				"HealthValueAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatusBleedImage"
 	{
