@@ -2198,5 +2198,15 @@ Scheme
       }
     }
 
+    "Giant"
+    {
+      "1"
+      {
+        "name"      "ITCAvantGardePro-XLt"
+        "tall"      "60"
+        "antialias" "1"
+      }
+    }
+
   }
 }

@@ -49,8 +49,7 @@ Scheme
       "ammoSignalBg"    "246 71 71 255"
 
     // objectivestatusescort.res (Payload)
-    "payloadBg"       "236 236 236 50"
-    "payloadBgBrd"    "236 236 236 25"
+    "payloadBg"       "29 29 29 255"
     "payloadTxt"      "236 236 236 255"
     "payloadRed"      "246 71 71 255"
     "payloadBlu"      "25 181 254 255"
@@ -74,7 +73,10 @@ Scheme
     "targetIdTxt"       "236 236 236 255"
     "targetIdBg"        "29 29 29 255"
 
-
+    // huddamageaccount.res
+    "damageAccountTxtHeal"  "246 71 71 255"
+    "damageAccountTxtHurt"  "3 201 169 255"
+    "damageValueTxt"        "236 236 236 255"
 
     // base colors
     "Orange"			"178 82 22 255"

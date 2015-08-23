@@ -1401,4 +1401,30 @@
 		"wide"	 		"f0"
 		"tall"	 		"f0"
 	}
+
+	// Hidden
+
+	"GarbageAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"   "GarbageAnchor"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"visible"   "0"
+	}
+
+	EscortHilightSwoop
+	{
+		"fieldName" "EscortHilightSwoop"
+		"visible" "0"
+		"enabled" "0"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"0"
+		"tall"	"0"
+
+		"pin_to_sibling"				"GarbageAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+	}
 }

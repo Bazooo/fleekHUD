@@ -4,15 +4,15 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
-		"xpos"				"c-150"
-		"ypos"				"r35"
+		"xpos"				"c-120"
+		"ypos"				"r25"
 		"zpos"				"1"
-		"wide"				"300"
-		"tall"				"150"
+		"wide"				"240"
+		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
-		"progress_wide"		"300"
+		"progress_wide"		"240"
 	}
 
 	"payloadBackground"
@@ -22,20 +22,9 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"300"
-		"tall"			"35"
+		"wide"			"240"
+		"tall"			"15"
 		"fillcolor"	"payloadBg"
-		"border"		"payloadBrBrd"
-
-		"if_multiple_trains"
-		{
-			"tall"		"5"
-		}
-
-		"if_multiple_trains_bottom"
-		{
-			"ypos"		"10"
-		}
 	}
 
 	"LevelBar"
@@ -45,23 +34,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"300"
-		"tall"			"35"
+		"wide"			"240"
+		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
 		"image"			"../hud/cart_track"
 		"scaleImage"	"1"
-
-		"if_multiple_trains"
-		{
-			"tall"		"5"
-		}
-
-		"if_multiple_trains_bottom"
-		{
-			"ypos"		"10"
-		}
 	}
 
 	"ProgressBar"
@@ -83,10 +62,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"
 		"xpos"			"65"
-		"ypos"			"-5"
+		"ypos"			"-10"
 		"zpos"			"1"
 		"wide"			"1"
-		"tall"			"45"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -104,7 +83,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"600"
+		"wide"			"480"
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
@@ -117,7 +96,7 @@
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"40"
-			"tall"			"35"
+			"tall"			"15"
 			"visible"		"0"
 			"enabled"		"0"
 			"fillcolor"		"payloadBlu"
@@ -147,31 +126,21 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"35"
+			"wide"			"240"
+			"tall"			"15"
 			"fillcolor"		"payloadIdle"
-
-			"if_multiple_trains"
-			{
-				"tall"		"5"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"10"
-			}
 		}
 
 		"RecedeTime"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Medium"
-			"xpos"			"260"
+			"font"			"Small"
+			"xpos"			"200"
 			"ypos"			"1"
 			"zpos"			"2"
 			"wide"			"40"
-			"tall"			"35"
+			"tall"			"15"
 			"textinsetx"		"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -183,25 +152,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 
-			"if_multiple_trains"
-			{
-				"font"			"NewFontTiny"
-				"tall"			"10"
-			}
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"0"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"10"
-			}
-
 			"if_team_red"
 			{
-				"fillcolor"	"payloadBlu"
+				"fgcolor"	"payloadBlu"
 			}
 		}
 
@@ -213,7 +166,7 @@
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"30"
-			"tall"			"35"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -231,8 +184,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"300"
-			"tall"			"35"
+			"wide"			"240"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -240,16 +193,6 @@
 			"tabPosition"	"0"
 			"labelText"		""
 			"fillcolor"		"payloadRed"
-
-			"if_multiple_trains"
-			{
-				"tall"			"5"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"10"
-			}
 
 			"if_team_red"
 			{
@@ -264,40 +207,22 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"300"
-			"tall"			"35"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"fillcolor"		"payloadBlu"
-
-			"if_multiple_trains"
-			{
-				"xpos"			"230"
-				"wide"			"30"
-				"tall"			"10"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"10"
-			}
-
-			"if_team_red"
-			{
-				"fillcolor"		"payloadRed"
-			}
 		}
 
 		"CapNumPlayers"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"Medium"
+			"font"			"Small"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"4"
-			"wide"			"300"
-			"tall"			"35"
+			"wide"			"240"
+			"tall"			"15"
 			"textinsetx"		"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -308,21 +233,11 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"fgcolor"		"payloadTxt"
+			"bgcolor_override"		"payloadBlu"
 
-			"if_multiple_trains"
+			"if_team_red"
 			{
-				"font"			"NewFontTiny"
-				"tall"			"10"
-			}
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"0"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"10"
+				"bgcolor_override"		"payloadRed"
 			}
 		}
 
@@ -333,8 +248,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"300"
-			"tall"			"35"
+			"wide"			"240"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -343,23 +258,6 @@
 			"labelText"		""
 			"scaleImage"	"0"
 			"fillcolor"		"payloadBlock"
-
-			"if_multiple_trains"
-			{
-				"xpos"			"230"
-				"wide"			"30"
-				"tall"			"10"
-			}
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"0"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"10"
-			}
 		}
 
 		"EscortTeardrop"
@@ -460,7 +358,7 @@
 				"ypos"			"8"
 				"zpos"			"1"
 				"wide"			"20"
-				"tall"			"35"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
@@ -475,7 +373,7 @@
 					"xpos"			"8"
 					"ypos"			"8"
 					"wide"			"20"
-					"tall"			"35"
+					"tall"			"15"
 				}
 			}
 		}
@@ -485,7 +383,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"
-			"xpos"			"300"
+			"xpos"			"240"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"0"
@@ -553,7 +451,7 @@
 				"xpos"			"11"
 				"ypos"			"71"
 				"wide"			"30"
-				"tall"			"30"
+				"tall"			"15"
 			}
 		}
 

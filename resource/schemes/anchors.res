@@ -39,4 +39,14 @@
     "wide"      "80"
     "visible"   "0"
   }
+
+  "DamageValueAnchor"
+  {
+    "ControlName"	"EditablePanel"
+    "fieldName"   "DamageValueAnchor"
+    "xpos"			"c0"
+    "ypos"			"r149"
+    "wide"      "50"
+    "visible"   "0"
+  }
 }
