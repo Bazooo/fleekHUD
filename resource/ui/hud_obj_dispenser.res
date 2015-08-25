@@ -6,7 +6,7 @@
 		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"32"
+		"wide"			"62"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"

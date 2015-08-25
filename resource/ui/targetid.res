@@ -105,7 +105,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"4"
 		"zpos"			"5"
 		"wide"			"30"
 		"tall"			"30"
@@ -140,7 +140,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"ProgressOffWhite"
+			"drawcolor"		"cHudWhite"
 			"scaleImage"	"1"
 		}
 		"MoveableSymbolIcon"
@@ -155,7 +155,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"ProgressOffWhite"
+			"drawcolor"		"cHudWhite"
 			"scaleImage"	"1"
 		}
 

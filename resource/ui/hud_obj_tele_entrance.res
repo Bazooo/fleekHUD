@@ -360,7 +360,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"NewFontTiny"
+					"font"			"Tiny"
 					"xpos"			"4"
 					"ypos"			"0"
 					"wide"			"26"
