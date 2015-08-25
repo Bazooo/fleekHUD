@@ -51,8 +51,8 @@ Scheme
     // objectivestatusescort.res (Payload)
     "payloadBg"       "29 29 29 255"
     "payloadTxt"      "236 236 236 255"
-    "payloadRed"      "246 71 71 255"
     "payloadBlu"      "25 181 254 255"
+    "payloadRed"      "246 71 71 255"
     "payloadIdle"     "236 236 236 255"
     "payloadBlock"    "102 51 153 255"
 
@@ -77,6 +77,14 @@ Scheme
     "damageAccountTxtHeal"  "246 71 71 255"
     "damageAccountTxtHurt"  "3 201 169 255"
     "damageValueTxt"        "236 236 236 255"
+
+    // hudobjectivekothtimepanel.res (King of the Hill timers)
+    "kothTimeTxt"        "236 236 236 255"
+    "kothTimeTxtPos"     "3 201 169 255"
+    "kothTimeTxtNeg"     "246 71 71 255"
+    "kothTimeBgBlu"      "25 181 254 255"
+    "kothTimeBgRed"      "246 71 71 255"
+    "kothTimeCapBrd"     "236 236 236 255"
 
     // base colors
     "Orange"			"178 82 22 255"

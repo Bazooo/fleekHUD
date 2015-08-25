@@ -8,43 +8,123 @@ Scheme
   {
 
     // HUD Borders
-    payloadBgBrd
+    kothTimeCapBrd
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "payloadBgBrd"
+					"color" "kothTimeCapBrd"
+					"offset" "0 0"
+				}
+        "2"
+				{
+					"color" "kothTimeCapBrd"
+					"offset" "0 0"
+				}
+        "3"
+				{
+					"color" "kothTimeCapBrd"
+					"offset" "0 0"
+				}
+        "4"
+				{
+					"color" "kothTimeCapBrd"
+					"offset" "0 0"
+				}
+        "5"
+				{
+					"color" "kothTimeCapBrd"
 					"offset" "0 0"
 				}
 			}
 
 			Right
 			{
-				"1"
-				{
-					"color" "payloadBgBrd"
-					"offset" "0 0"
-				}
+        "1"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "2"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "3"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "4"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "5"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
 			}
 
 			Top
 			{
-				"1"
-				{
-					"color" "payloadBgBrd"
-					"offset" "0 0"
-				}
+        "1"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "2"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "3"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "4"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "5"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
 			}
 
       Bottom
 			{
-				"1"
-				{
-					"color" "payloadBgBrd"
-					"offset" "0 0"
-				}
+        "1"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "2"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "3"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "4"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
+        "5"
+        {
+          "color" "kothTimeCapBrd"
+          "offset" "0 0"
+        }
 			}
 		}
 
