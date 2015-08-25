@@ -33,7 +33,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
-			"labelText"		"0:00:00"
+			"labelText"		"0:00"
 		}
 	}
 }

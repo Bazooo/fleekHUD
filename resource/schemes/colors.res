@@ -29,22 +29,31 @@ Scheme
     "cHudPurple"      "102 51 153 255"
 
     // hudplayerhealth.res
-    "healthTxt"       "236 236 236 255"
-    "healthBgNormal"  "29 29 29 255"
-    "healthBgDying"   "246 71 71 255"
-    "healthBgBuff"    "3 201 169 255"
+      // Health Value
+      "healthTxt"       "236 236 236 255"
+      "healthBgNormal"  "29 29 29 255"
+      "healthBgDying"   "246 71 71 255"
+      "healthBgBuff"    "3 201 169 255"
+
+      // Low Health Signal
+      "healthSignalTxt" "236 236 236 255"
+      "healthSignalBg"  "246 71 71 255"
 
     // hudammoweapons.res
-    "ammoTxt"         "236 236 236 255"
-    "ammoBgNormal"    "29 29 29 255"
-    "ammoBgLow"       "246 71 71 255"
+      // Ammo Values
+      "ammoTxt"         "236 236 236 255"
+      "ammoBgNormal"    "29 29 29 255"
+      "ammoBgLow"       "246 71 71 255"
+
+      // Low Ammo Signal
+      "ammoSignalTxt"   "236 236 236 255"
+      "ammoSignalBg"    "246 71 71 255"
 
     // objectivestatusescort.res (Payload)
-    "payloadBg"       "236 236 236 50"
-    "payloadBgBrd"    "236 236 236 25"
+    "payloadBg"       "29 29 29 255"
     "payloadTxt"      "236 236 236 255"
-    "payloadRed"      "246 71 71 255"
     "payloadBlu"      "25 181 254 255"
+    "payloadRed"      "246 71 71 255"
     "payloadIdle"     "236 236 236 255"
     "payloadBlock"    "102 51 153 255"
 
@@ -55,17 +64,28 @@ Scheme
       "medgunFgNormal"  "25 181 254 255"
       "medgunFgCharged" "3 201 169 255"
 
-      // Ready Text
-      "medgunTxtReady"  "236 236 236 255"
-      "medgunBgReady"   "29 29 29 255"
-      "medgunFgReady1"  "25 181 254 255"
-      "medgunFgReady2"  "3 201 169 255"
+      // Medgun Charged Signal
+      "medgunReadyTxt"  "236 236 236 255"
+      "medgunReadyBg"   "29 29 29 255"
+      "medgunReadyFg1"  "25 181 254 255"
+      "medgunReadyFg2"  "3 201 169 255"
 
     // targetid.res
     "targetIdTxt"       "236 236 236 255"
     "targetIdBg"        "29 29 29 255"
 
+    // huddamageaccount.res
+    "damageAccountTxtHeal"  "246 71 71 255"
+    "damageAccountTxtHurt"  "3 201 169 255"
+    "damageValueTxt"        "236 236 236 255"
 
+    // hudobjectivekothtimepanel.res (King of the Hill timers)
+    "kothTimeTxt"        "236 236 236 255"
+    "kothTimeTxtPos"     "3 201 169 255"
+    "kothTimeTxtNeg"     "246 71 71 255"
+    "kothTimeBgBlu"      "25 181 254 255"
+    "kothTimeBgRed"      "246 71 71 255"
+    "kothTimeCapBrd"     "236 236 236 255"
 
     // base colors
     "Orange"			"178 82 22 255"

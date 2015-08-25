@@ -16,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c120"
-		"ypos"	"r239"
-		"wide"	"80"
-		"tall"	"120"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 
 	HudObjectiveStatus
@@ -38,14 +38,13 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-180"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"wide"	"360"
+		"tall"	"480"
 
-		"blue_active_xpos"			"16"
-
-		"red_active_xpos"			"106"
+		"blue_active_xpos"		"80"
+		"red_active_xpos"			"165"
 	}
 
 	HudItemEffectMeter
@@ -777,15 +776,14 @@
 	{
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
-		"ypos"					"410"
+		"ypos"					"r40"
 		"wide"					"f0"
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"separator_width"		"10"	// distance between the icons (including their backgrounds)
+		"separator_height"		"10"
+		"height_offset"			"0"	// distance from the bottom of the panel
 	}
 
 	HudCapturePanel
@@ -1401,25 +1399,29 @@
 		"tall"	 		"f0"
 	}
 
+	// Hidden
+
 	"GarbageAnchor"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"GarbageAnchor"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"visible"			"0"
+		"fieldName"   "GarbageAnchor"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"visible"   "0"
 	}
 
-	"EscortHilightSwoop"
+	EscortHilightSwoop
 	{
-		"fieldName"				"EscortHilightSwoop"
-		"xpos"						"0"
-		"ypos"						"0"
-		"wide"						"f0"
-		"tall"						"480"
+		"fieldName" "EscortHilightSwoop"
+		"visible" "0"
+		"enabled" "0"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"0"
+		"tall"	"0"
 
-		"pin_to_sibling"	"GarbageAnchor"
-		"pin_corner_to_sibling"
-		"pin_to_sibling_corner"
+		"pin_to_sibling"				"GarbageAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 }
