@@ -41,6 +41,13 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
+event ScopeRemoval
+{
+	Animate HudScope Position	"9999 9999" Linear 0.0 0.0
+	Animate HudWeaponSelection Position "100 100" Linear 0.0 0.0
+	Animate HudWeaponSelection Alpha "50" Linear 0.0 0.0
+}
+
 event LevelInit
 {
 }

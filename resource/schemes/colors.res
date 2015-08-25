@@ -18,6 +18,7 @@ Scheme
     // HUD colors
     "cHudWhite"       "236 236 236 255"
     "cHudBlack"       "29 29 29 255"
+    "cHudBlackTrans"  "29 29 29 200"
     "cHudRedLight"    "246 71 71 255"
     //"cHudRed"
     //"cHudRedDark"
@@ -135,7 +136,7 @@ Scheme
 
     // Building HUD Specific
     "LowHealthRed"		"255 0 0 255"
-    "ProgressOffWhite"	"251 235 202 255"
+    "ProgressOffWhite"	"236 236 236 255" //"251 235 202 255"
     "ProgressBackground"	"250 234 201 51"
     "HealthBgGrey"		"72 71 69 255"
 

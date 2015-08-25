@@ -2178,6 +2178,16 @@ Scheme
       }
     }
 
+    "Smaller"
+    {
+      "1"
+      {
+        "name"      "ITCAvantGardePro-XLt"
+        "tall"      "15"
+        "antialias" "1"
+      }
+    }
+
     "Small"
     {
       "1"

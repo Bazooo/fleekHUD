@@ -1098,10 +1098,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_lodef"				"75"
-		"wide"					"125"
+		"xpos"					"c-132"
+		"ypos"					"0"
+		"wide"					"220"
 		"tall"					"55"
 	}
 
@@ -1400,5 +1399,27 @@
 		"ypos"			"0"
 		"wide"	 		"f0"
 		"tall"	 		"f0"
+	}
+
+	"GarbageAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"GarbageAnchor"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"visible"			"0"
+	}
+
+	"EscortHilightSwoop"
+	{
+		"fieldName"				"EscortHilightSwoop"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"480"
+
+		"pin_to_sibling"	"GarbageAnchor"
+		"pin_corner_to_sibling"
+		"pin_to_sibling_corner"
 	}
 }
