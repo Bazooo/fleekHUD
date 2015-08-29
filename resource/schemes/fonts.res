@@ -2172,7 +2172,7 @@ Scheme
     {
       "1"
       {
-        "name"      "ITCAvantGardePro-XLt"
+        "name"      "GeosansLight"
         "tall"      "10"
         "antialias" "1"
       }
@@ -2182,7 +2182,7 @@ Scheme
     {
       "1"
       {
-        "name"      "ITCAvantGardePro-XLt"
+        "name"      "GeosansLight"
         "tall"      "15"
         "antialias" "1"
       }
@@ -2192,7 +2192,7 @@ Scheme
     {
       "1"
       {
-        "name"      "ITCAvantGardePro-XLt"
+        "name"      "GeosansLight"
         "tall"      "20"
         "antialias" "1"
       }
@@ -2202,7 +2202,7 @@ Scheme
     {
       "1"
       {
-        "name"      "ITCAvantGardePro-XLt"
+        "name"      "GeosansLight"
         "tall"      "30"
         "antialias" "1"
       }
@@ -2212,7 +2212,7 @@ Scheme
     {
       "1"
       {
-        "name"      "ITCAvantGardePro-XLt"
+        "name"      "GeosansLight"
         "tall"      "60"
         "antialias" "1"
       }
