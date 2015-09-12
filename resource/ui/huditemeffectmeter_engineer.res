@@ -1,11 +1,11 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Engineer.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-225"
+		"xpos"			"262"
 		"ypos"			"r124"
 		"wide"			"100"
 		"tall"			"50"
@@ -43,7 +43,7 @@
 		"tall"					"15"
 		"visible"				"0"
 		"enabled"				"1"
-		"labelText"				"#TF_KillStreak"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"font"					"TFFontSmall"
 	}
