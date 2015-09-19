@@ -87,6 +87,11 @@ Scheme
     "kothTimeBgRed"      "246 71 71 255"
     "kothTimeCapBrd"     "236 236 236 255"
 
+    // disguisestatuspanel.res (Spy disguised HUD)
+      // Disguise signal
+      "disguiseSignalTxt"   "236 236 236 255"
+      "disguiseSignalBg"    "29 29 29 255"
+
     // base colors
     "Orange"			"178 82 22 255"
     "OrangeDim"			"178 82 22 120"

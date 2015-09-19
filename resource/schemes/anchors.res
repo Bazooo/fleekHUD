@@ -49,4 +49,14 @@
     "wide"      "50"
     "visible"   "0"
   }
+
+  "DisguiseSignalAnchor"
+  {
+    "ControlName"	"EditablePanel"
+    "fieldName"   "DisguiseSignalAnchor"
+    "xpos"			"c0"
+    "ypos"			"c-100"
+    "wide"      "80"
+    "visible"   "0"
+  }
 }
