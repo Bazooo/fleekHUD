@@ -2194,7 +2194,7 @@ Scheme
       "1"
       {
         "name"      "GeosansLight"
-        "tall"      "10"
+        "tall"      "11"
         "antialias" "1"
       }
     }
