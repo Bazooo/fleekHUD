@@ -28,6 +28,18 @@ Scheme
     "cHudGreen"       "3 201 169 255"
     "cHudPurple"      "102 51 153 255"
 
+    // mainmenuoverride.res
+    "mainmenuBg"      "3 201 169 255"
+    "mainmenuTxt"     "236 236 236 255"
+
+      // Buttons
+      "mainmenuButtonBg"            "236 236 236 255"
+      "mainmenuButtonTxt"           "29 29 29 255"
+      "mainmenuButtonTxtArmed"      "3 201 169 255"
+      "mainmenuButtonExitTxt"       "236 236 236 255"
+      "mainmenuButtonExitBg"        "246 71 71 255"
+      "mainmenuButtonExitBgArmed"   "217 30 24 255"
+
     // hudplayerhealth.res
       // Health Value
       "healthTxt"       "236 236 236 255"

@@ -30,6 +30,36 @@
 		}
 	}
 
+	"DisguiseStatusBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"DisguiseStatusBG"
+		"xpos"			"-40"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"80"
+		"tall"	 		"15"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"
+
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+
+		"pin_to_sibling"				"DisguiseSignalAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+	}
+
 	"DisguiseSignal"
 	{
 		"ControlName"	"CExLabel"
@@ -108,16 +138,3 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}
-
-	// Hidden
-
-	"DisguiseStatusBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"0"
-		"tall"	 		"0"
-	}
-}
