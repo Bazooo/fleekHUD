@@ -1,5 +1,24 @@
 "Resource/HudLayout.res"
 {
+	Circle
+	{
+		"visible" 		"0"
+		"enabled" 		"0"
+
+		"controlName"	"CExLabel"
+		"fieldName"	 	"Circle"
+		"zpos"			"2"
+		"xpos" 		 	"c-100"
+		"ypos" 		 	"c-97"
+		"wide" 		 	"201"
+		"tall" 		 	"201"
+
+		"font"			"Crosshairs34"	//CrosshairsOutline34
+
+		"labelText"		"9"
+		"textAlignment"	"center"
+		"fgcolor" 		"255 255 255 75"
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -39,7 +58,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-180"
-		"ypos"	"0"
+		"ypos"	"-1"
 		"wide"	"360"
 		"tall"	"480"
 
@@ -169,7 +188,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c120"
+		"xpos"					"c-160"
 		"ypos"					"r114"
 		"wide"					"160"
 		"tall"  				"30"
@@ -208,10 +227,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
+		"xpos"		"10"
+		"ypos"		"r70"
+		"wide"		"500"
+		"tall"		"200"
 	}
 
 	CMainTargetID
@@ -239,7 +258,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"r184"
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"40"

@@ -1713,17 +1713,6 @@ Scheme
         "antialias" "1"
       }
     }
-    "ItemFontNameLarger"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
     "ItemFontAttribSmallest"
     {
       "1"
@@ -1767,17 +1756,7 @@ Scheme
         "antialias" 	"1"
       }
     }
-    "ItemFontAttribLarger"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
+
     "AchievementTracker_Name"
     {
       "1"
@@ -2238,6 +2217,17 @@ Scheme
         "antialias" "1"
       }
     }
+
+    "Crosshairs34"
+		{
+			"1"
+			{
+  			"name"			"Crosshairs Regular"
+  			"tall" 			"34"
+  			"weight" 		"0"
+  			"antialias" 	"1"
+			}
+		}
 
   }
 }
