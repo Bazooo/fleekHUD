@@ -223,7 +223,7 @@
 				"font"			"Tiny"
 				"xpos"			"116"
 				"ypos"			"0"
-				"zpos"			"2"
+				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"17"
 				"autoResize"	"0"
