@@ -1,5 +1,24 @@
 "Resource/HudLayout.res"
 {
+	Circle
+	{
+		"visible" 		"1"
+		"enabled" 		"1"
+
+		"controlName"	"CExLabel"
+		"fieldName"	 	"Circle"
+		"zpos"			"2"
+		"xpos" 		 	"c-100"
+		"ypos" 		 	"c-97"
+		"wide" 		 	"201"
+		"tall" 		 	"201"
+
+		"font"			"Crosshairs34"	//CrosshairsOutline34
+
+		"labelText"		"9"
+		"textAlignment"	"center"
+		"fgcolor" 		"255 255 255 75"
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -39,7 +58,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-180"
-		"ypos"	"0"
+		"ypos"	"-1"
 		"wide"	"360"
 		"tall"	"480"
 
@@ -169,7 +188,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c120"
+		"xpos"					"c-160"
 		"ypos"					"r114"
 		"wide"					"160"
 		"tall"  				"30"
@@ -239,7 +258,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"r184"
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"40"
@@ -437,31 +456,27 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"xpos"	 "r640"
+		"ypos"	 "12"
 		"wide"	 "628"
 		"tall"	 "468"
 
 		"MaxDeathNotices" "4"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
+		"LineSpacing"	  "2"
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 
-		"TextFont"		"Default"
+		"TextFont"		"Tiny"
 
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"		"cHudBlueLight"
+		"TeamRed"		"cHudRedLight"
+		"IconColor"		"255 255 255 255"
+		"LocalPlayerColor"	"cHudBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"cHudBlackTrans"
+		"LocalBackgroundColor"	"240 240 240 255"
 	}
 
 	HudVehicle

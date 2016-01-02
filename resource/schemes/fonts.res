@@ -2188,6 +2188,16 @@ Scheme
       }
     }
 
+    "Light17"
+    {
+      "1"
+      {
+        "name"      "GeosansLight"
+        "tall"      "17"
+        "antialias" "1"
+      }
+    }
+
     "Small"
     {
       "1"
@@ -2217,6 +2227,17 @@ Scheme
         "antialias" "1"
       }
     }
+
+    "Crosshairs34"
+		{
+			"1"
+			{
+  			"name"			"Crosshairs Regular"
+  			"tall" 			"34"
+  			"weight" 		"0"
+  			"antialias" 	"1"
+			}
+		}
 
   }
 }

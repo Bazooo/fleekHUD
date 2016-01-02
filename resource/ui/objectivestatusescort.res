@@ -137,7 +137,7 @@
 			"fieldName"		"RecedeTime"
 			"font"			"Small"
 			"xpos"			"200"
-			"ypos"			"1"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"40"
 			"tall"			"15"

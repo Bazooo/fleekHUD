@@ -82,6 +82,7 @@ event CloseWeaponSelectionMenu
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0
+	RunEvent ScopeRemoval 0.0
 
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
@@ -761,7 +762,8 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate Circle FgColor "255 0 0 100"	Linear 0.0 0.0
+	Animate Circle FgColor "255 255 255 75"	Linear 0.15 0.0
 }
 
 //===========================================

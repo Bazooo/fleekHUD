@@ -25,7 +25,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Small"
 			"fgcolor"		"cHudWhite"
-			"xpos"			"23"
+			"xpos"			"22"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"48"

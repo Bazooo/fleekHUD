@@ -256,5 +256,10 @@ Scheme
       "font" "resource/fonts/GeosansLight.ttf"
       "name" "GeosansLight"
     }
+    "9"
+		{
+			"font"	"resource/fonts/Crosshairs.ttf"
+			"name"	"Crosshairs Regular"
+		}
   }
 }
