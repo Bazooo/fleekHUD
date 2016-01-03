@@ -17,7 +17,6 @@ Scheme
 
     // HUD colors
     "cHudWhite"       "236 236 236 255"
-    "cHudWhiteTrans"  "236 236 236 200"
     "cHudBlack"       "29 29 29 255"
     "cHudBlackTrans"  "29 29 29 200"
     "cHudRedLight"    "246 71 71 255"
