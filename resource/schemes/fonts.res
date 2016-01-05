@@ -2168,6 +2168,16 @@ Scheme
       }
     }
 
+    "Tinier"
+    {
+      "1"
+      {
+        "name"      "GeosansLight"
+        "tall"      "9"
+        "antialias" "1"
+      }
+    }
+
     "Tiny"
     {
       "1"
