@@ -26,7 +26,10 @@ Scheme
     //"cHudBlue"
     //"cHudBlueDark"
     "cHudGreen"       "3 201 169 255"
+    "cHudOrange"      "255 125 0 255"
     "cHudPurple"      "102 51 153 255"
+    "cHudGrayDark"    "110 110 110 255"
+    "cHudGrayLight"   "190 190 190 255"
 
     // hudplayerhealth.res
       // Health Value

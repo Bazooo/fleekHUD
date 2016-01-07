@@ -59,7 +59,7 @@
 		"ypos"		"24"
 		"wide"		"150"
 		"tall"		"16"
-		"font"	"Tiny"
+		"font_override"	"Tiny"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

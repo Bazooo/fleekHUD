@@ -2188,6 +2188,16 @@ Scheme
       }
     }
 
+    "TinyMore"
+    {
+      "1"
+      {
+        "name"      "GeosansLight"
+        "tall"      "12"
+        "antialias" "1"
+      }
+    }
+
     "Smaller"
     {
       "1"
@@ -2195,6 +2205,7 @@ Scheme
         "name"      "GeosansLight"
         "tall"      "15"
         "antialias" "1"
+        "weight"  "1"
       }
     }
 
@@ -2249,5 +2260,81 @@ Scheme
 			}
 		}
 
+    "Symbol12"
+    {
+      "1"
+      {
+        "name"  "Symbols"
+        "tall"  "12"
+        "weight"  "0"
+        "antialias" "1"
+      }
+    }
+
+    "Symbol14"
+    {
+      "1"
+      {
+        "name"  "Symbols"
+        "tall"  "14"
+        "weight"  "0"
+        "antialias" "1"
+      }
+    }
+
+    "Symbol16"
+    {
+      "1"
+      {
+        "name"  "Symbols"
+        "tall"  "16"
+        "weight"  "0"
+        "antialias" "1"
+      }
+    }
+
+    "Symbol18"
+    {
+      "1"
+      {
+        "name"  "Symbols"
+        "tall"  "18"
+        "weight"  "0"
+        "antialias" "1"
+      }
+    }
+
+    "Symbol20"
+    {
+      "1"
+      {
+        "name"  "Symbols"
+        "tall"  "20"
+        "weight"  "0"
+        "antialias" "1"
+      }
+    }
+
+    "Symbol22"
+    {
+      "1"
+      {
+        "name"  "Symbols"
+        "tall"  "22"
+        "weight"  "0"
+        "antialias" "1"
+      }
+    }
+
+    "Symbol24"
+    {
+      "1"
+      {
+        "name"  "Symbols"
+        "tall"  "24"
+        "weight"  "0"
+        "antialias" "1"
+      }
+    }
   }
 }

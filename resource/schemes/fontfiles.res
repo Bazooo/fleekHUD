@@ -261,5 +261,10 @@ Scheme
 			"font"	"resource/fonts/Crosshairs.ttf"
 			"name"	"Crosshairs Regular"
 		}
+    "10"
+    {
+      "font"  "resource/fonts/Symbols.otf"
+      "name"  "Symbols"
+    }
   }
 }
