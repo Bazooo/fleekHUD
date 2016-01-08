@@ -589,7 +589,7 @@
 				"enabled"		"1"
 				"image"			"glyph_achievements"
 				"scaleImage"	"1"
-				"drawcolor" "210 125 33 255"
+				"drawcolor" "cHudOrange"
 				"proportionaltoparent"	"1"
 			}
 
@@ -597,7 +597,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Notifications_CountLabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"TinyMore"
 				"labelText"		"%noticount%"
 				"textAlignment"	"center"
 				"xpos"			"cs-0.5"
@@ -1514,7 +1514,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-59"
+		"xpos"			"9999"
 		"ypos"			"245"
 		"zpos"			"13"
 		"wide"			"32"
