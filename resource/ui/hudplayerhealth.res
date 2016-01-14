@@ -409,7 +409,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneWarlock"
-		"xpos"			"85"
+		"xpos"			"9999"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"

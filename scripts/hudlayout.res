@@ -2,7 +2,7 @@
 {
 	Circle
 	{
-		"visible" 		"1"
+		"visible" 		"0"
 		"enabled" 		"1"
 
 		"controlName"	"CExLabel"
@@ -526,25 +526,26 @@
 
 	HudMessage
 	{
-		"fieldName" "HudMessage"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
+		"fieldName"		"HudMessage"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"wide"	 			"f0"
+		"tall"	 			"480"
 	}
 
 	HudMenu
 	{
-		"fieldName" "HudMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" "1"
-
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"fieldName" 					"HudMenu"
+		"visible" 						"1"
+		"enabled" 						"1"
+		"wide"	 							"640"
+		"tall"	 							"480"
+		"zpos" 								"1"
+		"TextFont"						"Tiny"
+		"ItemFont"						"Tiny"
+		"ItemFontPulsing"			"Tiny"
+		"fgcolor_override"		"cHudWhite"
+		"bgcolor_override"		"cHudBlackTrans"
 	}
 
 	HudSpellMenu

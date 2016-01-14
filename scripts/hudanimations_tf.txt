@@ -82,7 +82,7 @@ event CloseWeaponSelectionMenu
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0
-	RunEvent ScopeRemoval 0.0
+	//RunEvent ScopeRemoval 0.0
 
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
